@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2037
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FootballTAL", "FootballTAL\FootballTAL.csproj", "{1272D053-7025-4625-8728-E8A71F4F76A2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FootballTAL_Tests", "FootballTAL_Tests\FootballTAL_Tests.csproj", "{26DD79F8-238F-4A38-A7E3-8396A4FA0445}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1272D053-7025-4625-8728-E8A71F4F76A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1272D053-7025-4625-8728-E8A71F4F76A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1272D053-7025-4625-8728-E8A71F4F76A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1272D053-7025-4625-8728-E8A71F4F76A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26DD79F8-238F-4A38-A7E3-8396A4FA0445}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26DD79F8-238F-4A38-A7E3-8396A4FA0445}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26DD79F8-238F-4A38-A7E3-8396A4FA0445}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26DD79F8-238F-4A38-A7E3-8396A4FA0445}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E9AA01C0-3FDA-4F66-B80E-3A8642AD0E7B}
+	EndGlobalSection
+EndGlobal

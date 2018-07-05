@@ -1,0 +1,10 @@
+C:\Users\runyu\Documents\Visual Studio 2017\Projects\FootballTAL\FootballTAL\bin\Debug\FootballTAL.exe.config
+C:\Users\runyu\Documents\Visual Studio 2017\Projects\FootballTAL\FootballTAL\bin\Debug\FootballTAL.exe
+C:\Users\runyu\Documents\Visual Studio 2017\Projects\FootballTAL\FootballTAL\bin\Debug\FootballTAL.pdb
+C:\Users\runyu\Documents\Visual Studio 2017\Projects\FootballTAL\FootballTAL\obj\Debug\FootballTAL.csprojResolveAssemblyReference.cache
+C:\Users\runyu\Documents\Visual Studio 2017\Projects\FootballTAL\FootballTAL\obj\Debug\FootballTAL.MainForm.resources
+C:\Users\runyu\Documents\Visual Studio 2017\Projects\FootballTAL\FootballTAL\obj\Debug\FootballTAL.Properties.Resources.resources
+C:\Users\runyu\Documents\Visual Studio 2017\Projects\FootballTAL\FootballTAL\obj\Debug\FootballTAL.csproj.GenerateResource.cache
+C:\Users\runyu\Documents\Visual Studio 2017\Projects\FootballTAL\FootballTAL\obj\Debug\FootballTAL.csproj.CoreCompileInputs.cache
+C:\Users\runyu\Documents\Visual Studio 2017\Projects\FootballTAL\FootballTAL\obj\Debug\FootballTAL.exe
+C:\Users\runyu\Documents\Visual Studio 2017\Projects\FootballTAL\FootballTAL\obj\Debug\FootballTAL.pdb
