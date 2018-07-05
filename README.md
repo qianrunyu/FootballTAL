@@ -1,6 +1,7 @@
 The program is in winform following the MVC pattern.
 
 A unit test project has been included in this exercise with a 92% code coverage simulating real world coding developement envrionment.
+Moq package is installed to mock interface object.
 
 The file reading class implements Dependency Injection pattern which allows multiple file format reading engine to have one common read function. Curently CSV format is supported.
 
