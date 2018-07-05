@@ -13,3 +13,5 @@ There is a "continue on error" check box in UI which means if some errors found 
 Uncheck "continue on error" will terminate the process if any problem found in the file.
 
 The resources folder in testing project contains some csv files which have common erros such as no header, errors in cell or missing columns in certian rows.
+
+It is possbile that the multiple teams have the same smallest difference. All of them will be displayed.
