@@ -7,6 +7,8 @@ The file reading class implements Dependency Injection pattern which allows mult
 
 No logic coding in code behind file for better UI separation and easier unit testing.
 
+hard coded strings are stored in resrouces.resx in case there is a need for globalization. 
+
 FootballClub.cs maps the structure in .csv file. Extra attributes such as errorFound and Smallest difference are store in FootballClubExtention.cs which inherites the parent class.
 
 There is a "continue on error" check box in UI which means if some errors found in the cell, the reading engine will ingore current row and continue on next row without stopping.
