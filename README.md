@@ -1,4 +1,4 @@
-The program is in winform following the MVC pattern.
+The program is in C# 4.6 winform following the MVC pattern.
 
 A unit test project has been included in this exercise with a 92% code coverage simulating real world coding developement envrionment.
 Moq package is installed to mock interface object.
