@@ -1,10 +1,13 @@
-The program is in winform following the MVC pattern.
+The program is in C# 4.6 winform following the MVC pattern.
 
 A unit test project has been included in this exercise with a 92% code coverage simulating real world coding developement envrionment.
+Moq package is installed to mock interface object.
 
 The file reading class implements Dependency Injection pattern which allows multiple file format reading engine to have one common read function. Curently CSV format is supported.
 
 No logic coding in code behind file for better UI separation and easier unit testing.
+
+hard coded strings are stored in resrouces.resx in case there is a need for globalization. 
 
 FootballClub.cs maps the structure in .csv file. Extra attributes such as errorFound and Smallest difference are store in FootballClubExtention.cs which inherites the parent class.
 
