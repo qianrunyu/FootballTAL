@@ -16,6 +16,7 @@ namespace FootballTAL.Controller
     {
         private FootballClubArray clubArray { get; set; }
         private MainForm myView { get; set; }
+        private IFileReading iFileRead;
         public MainformController (MainForm view)
         {
             myView = view;
@@ -31,10 +32,14 @@ namespace FootballTAL.Controller
             using (OpenFileDialog openFileDialog = new OpenFileDialog())
             {
                 openFileDialog.Multiselect = false;
-                openFileDialog.Filter = "CSV Files|*.CSV;*.csv";
+                openFileDialog.Filter = "CSV,DAT Files|*.dat;*.csv";
                 if (openFileDialog.ShowDialog(myView) == DialogResult.OK)
                 {
                     myView.TBPath.Text = openFileDialog.FileName;
+                    if (System.IO.Path.GetExtension(openFileDialog.FileName).ToLower() == ".dat")
+                        iFileRead = new DatFileReading(myView.TBPath.Text);
+                    else
+                        iFileRead = new CSVFileReading(myView.TBPath.Text);
                 }
             }
         }
@@ -49,7 +54,7 @@ namespace FootballTAL.Controller
 
         public void showResult()
         {
-            var calResults = new FindDifference().FindSmallestForAgainst(clubArray.GetFootballClubList(new CSVFileReading(myView.TBPath.Text)));
+            var calResults = new FindDifference().FindSmallestForAgainst(clubArray.GetFootballClubList(iFileRead));
 
             if (calResults.Count() == 0)
             {

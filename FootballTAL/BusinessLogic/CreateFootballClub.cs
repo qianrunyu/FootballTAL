@@ -11,7 +11,7 @@ namespace FootballTAL.BusinessLogic
             {
                 return new FootballClubExtenions()
                 {
-                    ClubRank = int.Parse(fields[0].Split('.')[0]),
+                   ClubRank = int.Parse(fields[0].Split('.')[0]),
                     ClubName = fields[0].Split('.')[1].Trim(),
                     P = int.Parse(fields[1]),
                     W = int.Parse(fields[2]),

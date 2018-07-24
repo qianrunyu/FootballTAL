@@ -23,7 +23,7 @@ namespace FootballTAL.BusinessLogic
         public bool GetContainsError()
         {
             if (FootballClubList != null)
-                return FootballClubList.Where(i => i.ErrorFound == true).Count() > 0 ? true : false;
+                return FootballClubList.Any(i => i.ErrorFound) ;
             else
                 return false;
         }
